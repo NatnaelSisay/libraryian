@@ -1,0 +1,62 @@
+.inline-block {
+  display: inline-block;
+}
+.border {
+  border: 1px solid black;
+}
+a {
+  display: block;
+  /* border: 1px solid white; */
+  padding: 1em;
+  text-decoration: none;
+  color: white;
+  background-color: lightslategrey;
+  margin-top: 1em;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+.sidenav {
+  padding: 1em;
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 150%;
+}
+.logo span {
+  color: red;
+}
+
+.margin-t-1-em {
+  margin-top: 1 em;
+}
+
+.margin-b-1-em {
+  margin-bottom: 1 em;
+}
+button {
+  display: inline-block;
+}
+.list-group-item {
+  overflow: hidden;
+  margin-top: 1em;
+}
+
+.search-input {
+  margin-bottom: 2em;
+  background-color: lightsteelblue;
+  padding: 1em;
+  border: 1px solid lightsteelblue;
+  border-radius: 15px;
+}
